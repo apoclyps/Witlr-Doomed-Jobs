@@ -1,0 +1,74 @@
+<html>
+  <head>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', ' Young People '],
+          ['England',     6129],
+          ['Northern Ireland  ',      498],
+          ['Scotland', 1236],
+          ['Wales', 1143]
+        ]);
+
+        var options = {
+          title: ' Young people recruited in the last 12 months (aged 16-18 or 19-24)'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_location'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Sector', ' Young People '],
+          ['Primary sector and utilities',     285],
+          ['Trade, accommodation and transport ',      2973],
+          ['Business and other services', 2372],
+          ['Non-market services', 2260]
+        ]);
+
+        var options = {
+          title: ' Sector Grouping'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_sector'));
+        chart.draw(data, options);
+      }
+    </script>
+
+      <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Organisation Type', ' Young People Employed '],
+          ['For Profit',     7039],
+          ['Charity ',      875],
+          ['Goverment', 988]
+        ]);
+
+        var options = {
+          title: ' Organisation Type'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_organisation'));
+        chart.draw(data, options);
+      }
+    </script>
+
+  </head>
+  <body>
+    <div id="piechart_location" style="width: 450px; height: 250px;"><p></p></div>
+    <div id="piechart_sector" style="width: 450px; height: 250px;"></div>
+    <div id="piechart_organisation" style="width: 450px; height: 250px;"></div>
+  </body>
+</html>
