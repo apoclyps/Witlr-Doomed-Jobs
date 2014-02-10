@@ -12,13 +12,7 @@ sessions to store user specific information
 Homepage
 ===========
 
-![alt tag](https://raw.github.comapoclyps/Witlr-Doomed-Jobs/blob/master/images/doomed_home.png)
+![alt tag](https://raw.github.com/apoclyps/Witlr-Doomed-Jobs/blob/master/images/doomed_home.png)
 
 
 	
-
-You have to use the raw url format. In your case that would be https://raw.github.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg
-
-This means that the correct markdown would be the following
-
-![ScreenShot](https://raw.github.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg)
