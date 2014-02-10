@@ -12,4 +12,4 @@ sessions to store user specific information
 Homepage
 ===========
 
-![Settings Window](https://raw.github.comapoclyps/Witlr-Doomed-Jobs/blob/master/images/doomed_home.png)
+![Screenshot](https://raw.github.comapoclyps/Witlr-Doomed-Jobs/blob/master/images/doomed_home.png)
