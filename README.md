@@ -12,7 +12,7 @@ sessions to store user specific information
 Homepage
 ===========
 
-![alt tag](https://raw.github.com/apoclyps/Witlr-Doomed-Jobs/blob/master/images/doomed_home.png)
+![ScreenShot](https://raw2.github.com/apoclyps/Witlr-Doomed-Jobs/master/images/doomed_home.png)
 
 
 	
